@@ -94,6 +94,10 @@ nav ul li a {
     text-transform: uppercase;
 }
 
+form {
+    margin: 100px 0;
+}
+
 @media(max-width: 800px) {
     div {
         width: 50%;
