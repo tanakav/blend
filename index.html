@@ -5,16 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        header
+        <div class="container">
+            <a href="#" class="logo">Blend</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="perguntas.html">Perguntas</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="first-section">
-        <h1>Home</h1>
+    <section id="first-section" class="container">
+        <div class="jumbotron">
+            <h1>Cadastre-se</h1>
+            <a href="cadastro.html" class="btn btn-primary">Cadastrar</a>
+        </div>
+
         <div id="article-container">
             <div class="article">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eos ea quisquam dolores repellendus labore. Aliquid esse repudiandae fugit at inventore perspiciatis assumenda ab accusamus iusto enim error, illo culpa.</p>
@@ -27,13 +42,17 @@
             </div>
         </div>
     </section>
-    <section id="second-section">
+    <section id="second-section" class="container">
         <div>1</div>
         <div>2</div>
         <div>3</div>
         <div>4</div>
     </section>
-    <footer>footer</footer>
+    <footer>footer
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </footer>
 </body>
 
 </html>
