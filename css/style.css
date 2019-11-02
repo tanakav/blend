@@ -29,37 +29,20 @@ footer {
     margin-top: 100px;
 }
 
-#article-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #second-section {
     margin: 20px auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 section {
     overflow: hidden;
 }
 
-div.article {
-    border: 2px solid blue;
-    float: left;
-    width: 30%;
+article {
+    border: 1px solid blue;
 }
 
 #second-section div {
     border: 2px solid rgb(200, 40, 40);
-    width: 20%;
-    min-width: 150px;
-    padding: 50px;
-    margin: 2%;
     text-align: center;
     box-sizing: border-box;
 }
